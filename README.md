@@ -4,3 +4,5 @@ Grupo 4
 =======
 s
 >>>>>>> master
+Integrantes:
+Jorge Augusto Jaramillo Jaramillo jorgeajaramillo@yahoo.es
