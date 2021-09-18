@@ -6,3 +6,4 @@ s
 >>>>>>> master
 Integrantes:
 Jorge Augusto Jaramillo Jaramillo jorgeajaramillo@yahoo.es
+Jhoan Alexander Pimentel Ladino japimentell@unal.edu.co
