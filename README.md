@@ -8,3 +8,4 @@ Integrantes:
 Jorge Augusto Jaramillo Jaramillo jorgeajaramillo@yahoo.es
 Jhoan Alexander Pimentel Ladino japimentell@unal.edu.co
 Gilber Eduardo Pimentel Ladino ing.gilberpimentel@gmail.com
+Emanuel Londoño Ruiz emanuel.londonor@gmail.com
