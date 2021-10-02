@@ -6,8 +6,10 @@ Los Sprinters
 
 >>>>>>> master
 Integrantes:
+
 Jorge Augusto Jaramillo Jaramillo jorgeajaramillo@yahoo.es 
-Login y Logout con cuenta de Google mediante conexión con Firebase.
+Interfaz Login y Logout con cuenta de Google mediante conexión 
+con Firebase.
 
 Jhoan Alexander Pimentel Ladino japimentell@unal.edu.co 
 Interfaz maestro de usuarios.
