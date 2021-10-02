@@ -6,11 +6,20 @@ Los Sprinters
 
 >>>>>>> master
 Integrantes:
-Jorge Augusto Jaramillo Jaramillo jorgeajaramillo@yahoo.es -Login y Logout con cuenta de Google mediante conexión con Firebase.
-Jhoan Alexander Pimentel Ladino japimentell@unal.edu.co -Interfaz maestro de usuarios.
-Gilber Eduardo Pimentel Ladino ing.gilberpimentel@gmail.com Interfaz registro de ventas.
-Emanuel Londoño Ruiz emanuel.londonor@gmail.com interfaz registro de productos.
-Adriana Sánchez  aasanchezc@correo.udistrital.edu.co Lo Interfaces maestro de ventas y de productos.
+Jorge Augusto Jaramillo Jaramillo jorgeajaramillo@yahoo.es 
+Login y Logout con cuenta de Google mediante conexión con Firebase.
+
+Jhoan Alexander Pimentel Ladino japimentell@unal.edu.co 
+Interfaz maestro de usuarios.
+
+Gilber Eduardo Pimentel Ladino ing.gilberpimentel@gmail.com 
+Interfaz registro de ventas.
+
+Emanuel Londoño Ruiz emanuel.londonor@gmail.com 
+Interfaz registro de productos.
+
+Adriana Sánchez  aasanchezc@correo.udistrital.edu.co Lo 
+Interfaces maestro de ventas y de productos.
 
 
 Trello: https://trello.com/invite/b/Z0oHqT6g/e552cde012c321e1039d7b49ae694c5b/grupo-de-trabajo-4-los-sprinters
