@@ -6,11 +6,11 @@ Los Sprinters
 
 >>>>>>> master
 Integrantes:
-Jorge Augusto Jaramillo Jaramillo jorgeajaramillo@yahoo.es
-Jhoan Alexander Pimentel Ladino japimentell@unal.edu.co
-Gilber Eduardo Pimentel Ladino ing.gilberpimentel@gmail.com
-Emanuel Londoño Ruiz emanuel.londonor@gmail.com
-Adriana Sánchez  aasanchezc@correo.udistrital.edu.co
+Jorge Augusto Jaramillo Jaramillo jorgeajaramillo@yahoo.es -Login y Logout con cuenta de Google mediante conexión con Firebase.
+Jhoan Alexander Pimentel Ladino japimentell@unal.edu.co -Interfaz maestro de usuarios.
+Gilber Eduardo Pimentel Ladino ing.gilberpimentel@gmail.com Interfaz registro de ventas.
+Emanuel Londoño Ruiz emanuel.londonor@gmail.com interfaz registro de productos.
+Adriana Sánchez  aasanchezc@correo.udistrital.edu.co Lo Interfaces maestro de ventas y de productos.
 
 
 Trello: https://trello.com/invite/b/Z0oHqT6g/e552cde012c321e1039d7b49ae694c5b/grupo-de-trabajo-4-los-sprinters
@@ -19,7 +19,7 @@ Trello: https://trello.com/invite/b/Z0oHqT6g/e552cde012c321e1039d7b49ae694c5b/gr
 
 DESCRIPCIÓN GENERAL
 
-• Crear la interfaz de usuario que permita Autenticarse con un tercero en este caso Oauth 2  
+•Crear la interfaz de usuario que permita Autenticarse con un tercero en este caso Oauth 2  
 
 Creación de la interfaz de usuario mediante login con google, se entrega en HTML y CSS. En el momento se esta 
 implementando en React y ya se encuentra vinculado a Firebase. Se ejecuta con npm start y abre en http://localhost:3000, 
