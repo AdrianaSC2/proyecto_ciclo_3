@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    
+    <link href="interfazProductos.css" rel="stylesheet">
+    <script src="interfazProductos.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Gestión de Productos</title>
+</head>
+<body>  
+
+    
+    <div class="container">
+
+        <h1 class = "titulo">Gestión de <span class = "titulo_color">Productos</span> </h1>
+
+        <nav class="menunav"> 
+            <a  href="interfazProductos.html" target="_self"><button class = "boton-navegacion"><br>Inicio</button></a>
+            <a  href="interfazProductos.html" target="_self"><button class = "boton-navegacion">Gestion de ventas</button></a>
+            <a  href="interfazProductos.html" target="_self"><button class = "boton-navegacion">Gestion de productos</button></a>
+            <a  href="interfazProductos.html" target="_self"><button class = "boton-navegacion">Gestion de usuarios</button></a>
+        </nav> 
+
+
+        <div class="content-wrapper">
+
+            <table id="myTable" class="formulario">
+                <tr>
+                    <th>Codigo</th>
+                    <th>Producto</th>
+                    <th>Estado</th>
+                    <th>Disponible</th>
+                    <th>Descripcion</th>
+                    <th>Accion</th>
+                </tr>    
+                <tr>
+                    <td><div>
+                        <input type="text"  placeholder="Ingresar Codigo" aria-label="Recipient's username" aria-describedby="button-addon2">
+                       
+                      </div></td>
+                    <td><div>
+                        <input type="text"  placeholder="Ingresar nombre producto" aria-label="Recipient's username" aria-describedby="button-addon2">
+                       
+                      </div></td>
+                    <td><select>
+                        <option value="1">Administrador</option>
+                        <option value="2">Vendedor</option>
+                        </select></td>
+                    <td><select>
+                        <option selected>Disponible</option>
+                        <option value="1">Si</option>
+                        <option value="2">No</option>
+                        <option value="3">Por confirmar</option>
+                        </select></td>
+                    <td><div>
+                        <input type="text" placeholder="Ingresar Descripcion" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        
+                      </div></td>
+                    <td> <input type ='button' class = boton_eliminar value = 'X' onclick = "deleteRow (this)"> </ td>
+                    
+                </tr>
+            </table>
+            <input type="button" class=boton_agregar value='+' onclick="insertRowInTable ();" value="Agregar fila" />
+
+            
+
+            <button class = "logout">Logout</button>
+        </div>
+        
+    </div>
+   
+    
+   
+
+</body>
+</html>
