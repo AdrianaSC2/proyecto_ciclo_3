@@ -20,7 +20,7 @@ Interfaz registro de ventas.
 Emanuel Londoño Ruiz emanuel.londonor@gmail.com 
 Interfaz registro de productos.
 
-Adriana Sánchez  aasanchezc@correo.udistrital.edu.co Lo 
+Adriana Sánchez  aasanchezc@correo.udistrital.edu.co
 Interfaces maestro de ventas y de productos.
 
 
