@@ -1,10 +1,4 @@
 # proyecto_ciclo_3
-<<<<<<< HEAD
-Grupo 4 - prog... ciclo3
-Los Sprinters
-=======
-
->>>>>>> master
 Integrantes:
 
 Jorge Augusto Jaramillo Jaramillo jorgeajaramillo@yahoo.es 
