@@ -182,6 +182,30 @@
                     
                 </tr>
 
+                <tr>
+                    <td><div>
+                        <input type="text"  placeholder="Ingresar nombre" aria-label="Recipient's username" aria-describedby="button-addon2">
+                       
+                      </div></td>
+                    <td><div>
+                        <input type="text"  placeholder="Ingresar cédula" aria-label="Recipient's username" aria-describedby="button-addon2">
+                       
+                      </div></td>
+                    <td><select>
+                        <option selected>Seleccionar rol</option>
+                        <option value="1">Administrador</option>
+                        <option value="2">Vendedor</option>
+                        </select></td>
+                    <td><select>
+                        <option selected>Seleccionar estado</option>
+                        <option value="1">Autorizado</option>
+                        <option value="2">Pendiente</option>
+                        <option value="3">No autorizado</option>
+                        </select></td>
+                        <td> <input type ='button' class = boton_eliminar value = 'X' onclick = "deleteRow (this)"> </ td>
+                    
+                </tr>
+
                 
             </table>
             <input type = "button" class = boton_agregar value = '+' onclick = "insertRowInTable ();" value = "Agregar fila" />
