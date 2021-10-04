@@ -1,0 +1,18 @@
+.tbody{
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    margin-top: 25px;
+    margin-bottom: 35px;
+    color:crimson; 
+    text-align: center;
+}
+.container{
+    color:aqua;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-style: solid;
+    border-color:rgb(35, 45, 94);
+    background-color: rgb(35, 45, 94);
+}

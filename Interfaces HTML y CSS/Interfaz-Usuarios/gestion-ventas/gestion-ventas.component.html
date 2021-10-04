@@ -1,0 +1,131 @@
+
+<div class="d-flex align-items-start ">
+    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <button class="nav-link active" id="v-pills-Venta-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Venta" type="button" role="tab" aria-controls="v-pills-Venta" aria-selected="true">Venta</button>
+      <button class="nav-link" id="v-pills-Listar-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Listar" type="button" role="tab" aria-controls="v-pills-Listar" aria-selected="false">Listar</button>
+      <button class="nav-link" id="v-pills-Buscar-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Buscar" type="button" role="tab" aria-controls="v-pills-Buscar" aria-selected="false">Buscar</button>
+      <button class="nav-link" id="v-pills-Actualizar-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Actualizar" type="button" role="tab" aria-controls="v-pills-Actualizar" aria-selected="false">Actualizar</button>
+    </div>
+    <div class="tab-content" id="v-pills-tabContent     ">
+      <div class= "titulo">
+      <h1 class="col-md-5 ">Proceso de venta</h1>
+      
+      </div>
+      <div class="row mb-3">
+          <div class="col-3">
+      <img src= "assets/images/logo.jpeg" alt="Logo" class="img-fluid" />
+      </div> </div>
+       <div class="container">
+        <form class="row g-3">
+            <div class="col-md-4 margin-top:23px;">
+              <label for="validationDefault01" class="form-label">Nombre del Cliente</label>
+              <input type="text" class="form-control" id="validationDefault01" value="" required>
+            </div>
+            <div class="col-md-4 margin-top:23px;">
+              <label for="validationDefault02" class="form-label">Documento</label>
+              <input type="number" class="form-control" id="validationDefault02" value="" required>
+            </div>
+            <div class="col-md-4 margin-top:23px;">
+              <label for="validationDefault06" class="form-label">Fecha</label>
+              <div class="input-group">
+                <input type="date" class="form-control" id="validationDefaultUsername" value=today aria-describedby="inputGroupPrepend2" required>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault03" class="form-label">Vendedor</label>
+              <select id="disabledSelect" class="form-select">
+                <option>Adriana Sánchez</option> 
+                <option>Alexander Pimentel</option> 
+                <option>Emanuel Londoño</option> 
+                <option>Gilber Pimentel</option> 
+                <option>Jorge Jaramillo</option> 
+                </select>
+    
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault04" class="form-label">Factura N°</label>
+              <input type="text" id="disabledTextInput" class="form-control" placeholder="00001" disabled>
+            </div>
+          <div class="col-md-3">
+          <label for="validationDefault05" class="form-label">Total a pagar</label>
+          <input type="number" id="disabledTextInput" class="form-control" placeholder="0" disabled>
+        </div>
+            
+            <div class="col-8 border-bottom:10px">
+              <button class="btn btn-primary" type="submit">Aceptar</button>
+            </div>
+          </form> 
+    </div>
+      
+      
+      <div class="table-responsive">
+        <table class="table align-middle">
+          <thead>
+            <tr>
+                <th>Código</th> <th>Descripción</th> <th>Imágen referencia</th> <th>Valor Unitario</th> 
+                <th>Compra</th> <th>Cantidad</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+        
+            </tr>
+            <tr class="align-bottom">
+              ...
+            </tr>
+            <tr>
+                <td>GW2021</td>  <td>Marco GW Shark Carbon 2021</td>
+                <td><img src="https://i.picsum.photos/id/539/200/200.jpg?hmac=8uIu6eeXIH6tNIHiVORkXIi3GaBh5DO0XR2AXfO7mzA   " class="rounded mx-auto d-block" alt="..."></td>
+                <td>240.000$</td> 
+                <td>       
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" Default>
+                        <label class="form-check-label" for="flexSwitchCheckChecked">comprar</label>
+                      </div>
+                </td> 
+                <td> <input type="number" class="form-control" id="validationDefault" value="" required></td>
+            </tr>
+            <tr>
+                <td>A29FD</td>  <td>Marco Acero 29 Para Freno De Disco Y V- Brake Oversize</td>
+                <td><img src="https://i.picsum.photos/id/11/200/200.jpg?hmac=LBGO0uEpEmAVS8NeUXMqxcIdHGIcu0JiOb5DJr4mtUI " class="rounded mx-auto d-block" alt="..."></td>
+                <td>170.000$</td> 
+                <td>       
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" Default>
+                        <label class="form-check-label" for="flexSwitchCheckChecked">comprar</label>
+                      </div>
+                </td> 
+                <td> <input type="number" class="form-control" id="validationDefault" value="" required></td>
+            </tr>
+            <tr>
+                <td>M20211</td>  <td>Marco Kit Bicicleta Gw Lynx Rin 24 Mtb Aluminio M20211</td>
+                <td><img src="https://i.picsum.photos/id/1071/200/200.jpg?hmac=mb6el6MCnRCyFnuMcCPJppn1WISnV5OKFUqDFg82Joo " class="rounded mx-auto d-block" alt="..."></td>
+                <td>399.800$</td> 
+                <td>       
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" Default>
+                        <label class="form-check-label" for="flexSwitchCheckChecked">comprar</label>
+                      </div>
+                </td> 
+                <td> <input type="number" class="form-control" id="validationDefault" value="" required></td>
+            </tr>
+            <tr>
+                <td>GW27Al</td>  <td>Kit De Marco Gw Hyena Rin 27.5 En Aluminio</td>
+                <td><img src="https://i.picsum.photos/id/142/200/200.jpg?hmac=L8yY8tFPavTj32ZpuPiqsLsfWgDvW1jvoJ0ETDOUMGg" class="rounded mx-auto d-block" alt="..."></td>
+                <td>345.000$</td> 
+                <td>       
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" Default>
+                        <label class="form-check-label" for="flexSwitchCheckChecked">comprar</label>
+                      </div>
+                </td> 
+                <td> <input type="number" class="form-control" id="validationDefault" value="" required></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="tab-pane fade" id="v-pills-Listar" role="tabpanel" aria-labelledby="v-pills-Listar-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-Buscar" role="tabpanel" aria-labelledby="v-pills-Buscar-tab">...</div>
+      <div class="tab-pane fade" id="v-pills-Actualizar" role="tabpanel" aria-labelledby="v-pills-Actualizar-tab">...</div>
+    </div>
+  </div>
