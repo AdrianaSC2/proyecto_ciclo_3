@@ -20,6 +20,22 @@ Interfaces maestro de ventas y de productos.
 
 Trello: https://trello.com/invite/b/Z0oHqT6g/e552cde012c321e1039d7b49ae694c5b/grupo-de-trabajo-4-los-sprinters
 
+-------------------------------------------- SPRINT 3 ---- --------------------------------------------
+
+Se define la estructura del proyecto de Backend "Los Sprinters".
+
+Se instala, configura y se prueba el servidor de express.
+
+Se definen las rutas asociadas al CRUD de productos y usuarios.
+
+Se definen los controladores asociados al CRUD de productos y usuarios.
+
+Se Configura Mongodb.
+
+Se definen los metodos de crear, listar, eliminar y actualizar para interactuar con la Base de Datos MongoDB.
+
+Se realizan pruebas mediante la utilización de la herramienta Postmany se verifica su creación en MongoDB.
+
 --------------------------------------------   SPRINT    2      -----------------------------------------------
 
 DESCRIPCIÓN GENERAL
