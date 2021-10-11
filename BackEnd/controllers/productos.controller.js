@@ -1,10 +1,10 @@
-const ProductSchema = require('../models/product');
+const ProductoSchema = require('../models/producto');
 const { validationResult } = require('express-validator');
 
 const getProduct = async (req, res) => {
     if (req.params.id != 'undefined') {
         try {
-            let product = await ProductSchema.findById(req.params.id);
+            let product = await ProductoSchema.findById(req.params.id);
             res.status(200).json({ data: product });
         }
         catch (err) {
@@ -26,8 +26,10 @@ const getProduct = async (req, res) => {
 }
 
 const getProducts = async (req, res) => {
+    console.log('Accedió al método de productos');
+
     try {
-        let products = await ProductSchema.find();
+        let products = await ProductoSchema.find();
         res.status(200).json({ data: products });
     }
     catch (err) {
@@ -50,7 +52,7 @@ const createProduct = async (req, res) => {
             }
         });
     }
-    let product = new ProductSchema(req.body);
+    let product = new ProductoSchema(req.body);
     try {
         await product.save();
         res.status(201).json({ data: product });
@@ -82,7 +84,7 @@ const updateProduct = async (req, res) => {
             descripcion: req.body.descripcion,
             estado: req.body.estado
         }
-        await ProductSchema.findByIdAndUpdate(req.params.id, newProduct);
+        await ProductoSchema.findByIdAndUpdate(req.params.id, newProduct);
         res.status(201).json({ data: newProduct })
     }
     catch (err) {
@@ -99,7 +101,7 @@ const updateProduct = async (req, res) => {
 const deleteProduct = async (req, res) => {
     if (req.params.id != 'undefined') {
         try {
-            let result = await ProductSchema.findByIdAndRemove(req.params.id);
+            let result = await ProductoSchema.findByIdAndRemove(req.params.id);
             res.status(200).json({ data: result });
         }
         catch (err) {
