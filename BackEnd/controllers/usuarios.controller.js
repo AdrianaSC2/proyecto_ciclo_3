@@ -17,7 +17,7 @@ const getUsuario = async (req, res) => {
 
 const getUsuarios = async (req, res) => {
     try {
-        let Usuarios = await UsuarioSchema.find();
+        let usuarios = await UsuarioSchema.find();
         res.json({ usuarios });
     }
     catch (err) {
@@ -46,8 +46,9 @@ const updateUsuario = async (req, res) => {
             await UsuarioSchema.findOneAndUpdate(
                 { _id: req.body.id },
                 {
-                Identificacion: req.body.valor,
-                rol: req.body.descripcion,
+                cedula: req.body.cedula,
+                rol: req.body.rol,
+                nombre: req.body.nombre,
                 estado: req.body.estado
                 }
             );
@@ -65,7 +66,7 @@ const updateUsuario = async (req, res) => {
 const deleteUsuario = async (req, res) => {
     if (typeof req.body != 'undefined') {
         try {
-            await UsuarioSchema.findOneAndRemove(req.body.id);
+            await UsuarioSchema.findOneAndRemove( {_id: req.body.id} );
             res.json({ msg: 'Se ha eliminado el usuario ' + req.body.id });
         }
         catch (err) {
