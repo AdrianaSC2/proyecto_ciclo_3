@@ -9,10 +9,10 @@ Jhoan Alexander Pimentel Ladino japimentell@unal.edu.co
 Interfaz maestro de usuarios.
 
 Gilber Eduardo Pimentel Ladino ing.gilberpimentel@gmail.com 
-Interfaz registro de productos.
+Interfaz registro de ventas.
 
 Emanuel Londoño Ruiz emanuel.londonor@gmail.com 
-Interfaz registro de ventas.
+Interfaz registro de productos.
 
 Adriana Sánchez  aasanchezc@correo.udistrital.edu.co
 Interfaces maestro de ventas y de productos.
