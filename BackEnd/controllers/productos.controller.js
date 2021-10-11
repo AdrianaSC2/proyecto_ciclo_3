@@ -1,11 +1,11 @@
-const ProductSchema = require('../models/product');
+const ProductoSchema = require('../models/producto');
 const { validationResult } = require('express-validator');
 
-const getProduct = async (req, res) => {
+const getProducto = async (req, res) => {
     if (req.params.id != 'undefined') {
         try {
-            let product = await ProductSchema.findById(req.params.id);
-            res.status(200).json({ data: product });
+            let producto = await ProductoSchema.findById(req.params.id);
+            res.status(200).json({ data: producto });
         }
         catch (err) {
             res.status(404).json({
@@ -25,10 +25,10 @@ const getProduct = async (req, res) => {
     }
 }
 
-const getProducts = async (req, res) => {
+const getProductos = async (req, res) => {
     try {
-        let products = await ProductSchema.find();
-        res.status(200).json({ data: products });
+        let productos = await ProductoSchema.find();
+        res.status(200).json({ data: productos });
     }
     catch (err) {
         res.status(404).json({
@@ -40,7 +40,7 @@ const getProducts = async (req, res) => {
     }
 }
 
-const createProduct = async (req, res) => {
+const createProducto = async (req, res) => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
         return res.status(400).json({
@@ -50,10 +50,10 @@ const createProduct = async (req, res) => {
             }
         });
     }
-    let product = new ProductSchema(req.body);
+    let producto = new ProductoSchema(req.body);
     try {
-        await product.save();
-        res.status(201).json({ data: product });
+        await producto.save();
+        res.status(201).json({ data: producto });
     }
     catch (err) {
         res.status(404).json({
@@ -65,7 +65,7 @@ const createProduct = async (req, res) => {
     }
 }
 
-const updateProduct = async (req, res) => {
+const updateProducto = async (req, res) => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
         return res.status(400).json({
@@ -76,14 +76,14 @@ const updateProduct = async (req, res) => {
         });
     }
     try {
-        let newProduct = {
+        let newProducto = {
             id: req.params.id,
             valor: req.body.valor,
             descripcion: req.body.descripcion,
             estado: req.body.estado
         }
-        await ProductSchema.findByIdAndUpdate(req.params.id, newProduct);
-        res.status(201).json({ data: newProduct })
+        await ProductoSchema.findByIdAndUpdate(req.params.id, newProducto);
+        res.status(201).json({ data: newProducto })
     }
     catch (err) {
         res.status(404).json({
@@ -96,10 +96,10 @@ const updateProduct = async (req, res) => {
 }
 
 
-const deleteProduct = async (req, res) => {
+const deleteProducto = async (req, res) => {
     if (req.params.id != 'undefined') {
         try {
-            let result = await ProductSchema.findByIdAndRemove(req.params.id);
+            let result = await ProductoSchema.findByIdAndRemove(req.params.id);
             res.status(200).json({ data: result });
         }
         catch (err) {
@@ -120,8 +120,8 @@ const deleteProduct = async (req, res) => {
     }
 }
 
-module.exports.getProduct = getProduct;
-module.exports.getProducts = getProducts;
-module.exports.createProduct = createProduct;
-module.exports.updateProduct = updateProduct;
-module.exports.deleteProduct = deleteProduct;
+module.exports.getProducto = getProducto;
+module.exports.getProductos = getProductos;
+module.exports.createProducto = createProducto;
+module.exports.updateProducto = updateProducto;
+module.exports.deleteProducto = deleteProducto;
